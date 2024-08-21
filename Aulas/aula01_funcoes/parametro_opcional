@@ -1,0 +1,10 @@
+void main() {
+  parametroOpcional('Maria');
+}
+
+//função com paramentros opcionais e default -> se houver mais de 1 obedecer a ordem '{} / []'
+void parametroOpcional(String nome,[bool mostrar = true]){
+  if(mostrar){
+    print('Nome: $nome');
+  }
+}
