@@ -1,0 +1,19 @@
+void main() {
+  var nome = 'Genivon';
+  print(nome);
+  //nome = 3;
+
+  var idade = 40;
+  idade++;
+  print(idade);
+
+  num numero = 10;
+  num numero2 = 3.14;
+  print(numero);
+  print(numero2);
+
+  //usado em caso bem espcíficos
+  dynamic valor = 'Genivon';
+  valor = 40;
+  print(valor);
+}
