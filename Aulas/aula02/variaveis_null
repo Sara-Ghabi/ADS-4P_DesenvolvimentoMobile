@@ -1,0 +1,33 @@
+//VARIAVEL COM VALOR NULL
+
+void main() {
+  variavelNull('Genivon',curso:'ADS');
+}
+
+void variavelNull(nome, {
+  String linguagem = 'Mobile',
+  bool mostrarLinguagem = true,
+  String? curso, //Variavel com valor NULL
+  String? valor,
+  bool mostrarHoras = true,
+}){
+  print ('Bem vindos! ${nome}');
+  
+ // String variavel = valor;
+  String variavel = valor ?? 'Não informado';
+  print(variavel);
+
+  if(mostrarLinguagem){
+  print('Aula de Desenvolvimento ${linguagem}');
+    }
+  if(curso != null){
+  print('do curso de ${curso}');
+    }
+  if(mostrarHoras){
+    print('Agora são: ${hora()}');
+  }
+  }
+
+String hora(){
+  DateTime hora = DateTime.now();
+  return hora.toString();
