@@ -1,0 +1,9 @@
+void main() {
+  print(agora());
+}
+
+// função com retorno
+String agora(){
+  DateTime agora = DateTime.now();
+  return agora.toString();
+}
