@@ -1,0 +1,9 @@
+void main() {
+  saudacao();
+}
+
+// função sem retorno
+void saudacao(){
+  print('Teste de funções');
+  print('Professsor Genivon');
+}
